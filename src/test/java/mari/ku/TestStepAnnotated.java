@@ -19,10 +19,10 @@ public class TestStepAnnotated extends TestBase {
     @Link(name = "GitHub", url = "https://github.com")
     public void testStepAnnotated() {
 
-        steps.openMainPage();
-        steps.searchRepository(REPOSITORY);
-        steps.goToRepository(REPOSITORY);
-        steps.shouldSeeIssue();
+        steps.openMainPage()
+                .searchRepository(REPOSITORY)
+                .goToRepository(REPOSITORY)
+                .shouldSeeIssue();
 
     }
 }

@@ -17,7 +17,7 @@ public class TestStepLambda extends TestBase {
     @Owner("marina-ku4erenko")
     @Feature("Страница репозитория")
     @Story("Наличие табов")
-    @Severity(SeverityLevel.NORMAL)
+    @Severity(SeverityLevel.CRITICAL)
     @DisplayName("testStepLambda/ Проверка наличия таба Issues")
     @Link(name = "GitHub", url = "https://github.com")
     public void testStepLambda() {
